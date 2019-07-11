@@ -1,2 +1,7 @@
 /.idea/
-*.iml
+/*.iml
+/UserCenter/userModel/*.iml
+/UserCenter/userApplication/*.iml
+/UserCenter/*.iml
+target
+.project

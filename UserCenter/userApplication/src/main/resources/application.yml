@@ -1,0 +1,10 @@
+server:
+  port: 8016
+  tomcat:
+    max-threads: 10
+    accept-count: 10
+    max-connections: 10
+    max-http-post-size: -1
+spring:
+  application:
+    name: userCenter
