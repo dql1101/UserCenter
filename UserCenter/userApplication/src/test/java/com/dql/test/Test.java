@@ -26,9 +26,9 @@ public class Test {
         System.out.println(zonedDateTime);
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm;ss");
         String localDateTimeFormat = localDateTime.format(dateTimeFormatter);
-        String zonedDateTimeFomat = zonedDateTime.format(dateTimeFormatter);
+        String zonedDateTimeFormat = zonedDateTime.format(dateTimeFormatter);
         System.out.println(localDateTimeFormat);
-        System.out.println(zonedDateTimeFomat);
+        System.out.println(zonedDateTimeFormat);
 
     }
 
